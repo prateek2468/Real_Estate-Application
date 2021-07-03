@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="AnchorPane3" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #5B3365;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.newSPController">
+    <children>
+        <Label alignment="CENTER" layoutX="7.0" layoutY="7.0" prefHeight="86.0" prefWidth="592.0" text="Enter Details of New Selling Property " textFill="#72d9c6">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Label>
+        <TextField fx:id="text1" layoutX="49.0" layoutY="131.0" promptText="Enter Address of Property" />
+        <TextField fx:id="text2" layoutX="358.0" layoutY="131.0" promptText="Enter Town" />
+        <Label alignment="CENTER" layoutX="94.0" layoutY="106.0" prefHeight="25.0" prefWidth="58.0" text="Address" textFill="#72d9c6">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="401.0" layoutY="110.0" prefHeight="19.0" prefWidth="58.0" text="Town">
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0" startX="0.4666666666666667">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.4470588266849518" green="0.8509804010391235" blue="0.7764706015586853" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="text3" layoutX="49.0" layoutY="210.0" promptText="Enter Unique Owner ID" />
+        <Label alignment="CENTER" layoutX="79.0" layoutY="191.0" prefHeight="19.0" prefWidth="106.0" text="Property ID" textFill="#72d9c6">
+            <font>
+                <Font size="13.0" />
+            </font></Label>
+        <Label alignment="CENTER" layoutX="391.0" layoutY="191.0" prefHeight="19.0" prefWidth="106.0" text="Name of Owner" textFill="#72d9c6" >
+            <font>
+                <Font size="13.0" />
+            </font></Label>
+        <Button layoutX="94.0" layoutY="351.0" mnemonicParsing="false" onAction="#add" text="Add" />
+        <Button layoutX="410.0" layoutY="351.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <TextField fx:id="text5" layoutX="49.0" layoutY="284.0" promptText="Enter Asking Price" />
+      <TextField fx:id="text6" layoutX="356.0" layoutY="284.0" promptText="Enter Indoor Area" />
+      <Label alignment="CENTER" layoutX="84.0" layoutY="263.0" prefHeight="21.0" prefWidth="73.0" text="Asking Price" textFill="#72d9c6" />
+      <Label alignment="CENTER" layoutX="388.0" layoutY="261.0" prefHeight="21.0" prefWidth="85.0" text="Indoor Area" textFill="#72d9c6">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+        <Text fx:id="text" fill="#f80d48" layoutX="238.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="79.0">
+            <font>
+                <Font size="20.0" />
+            </font></Text>
+      <TextField fx:id="text4" layoutX="356.0" layoutY="210.0" promptText="Enter Owner's Name"/>
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="AnchorPane4" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #3F595A;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.newLPController">
+   <children>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="8.0" prefHeight="87.0" prefWidth="588.0" text="Enter Details of New Lease Property" textFill="#f69175">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <TextField fx:id="text1" layoutX="64.0" layoutY="127.0" promptText="Enter Address" />
+      <TextField fx:id="text2" layoutX="359.0" layoutY="127.0" promptText="Enter Town" />
+      <TextField fx:id="text3" layoutX="64.0" layoutY="197.0" promptText="Enter Unique Property ID" />
+      <TextField fx:id="text4" layoutX="359.0" layoutY="197.0" promptText="Enter Owner's Name" />
+      <TextField fx:id="text5" layoutX="64.0" layoutY="268.0" promptText="Enter Tenant Name" />
+      <TextField fx:id="text6" layoutX="359.0" layoutY="268.0" promptText="Enter Tenant Phone" />
+      <Button layoutX="113.0" layoutY="328.0" mnemonicParsing="false" onAction="#add" text="Add" />
+      <Button layoutX="408.0" layoutY="328.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Label alignment="CENTER" layoutX="98.0" layoutY="110.0" prefHeight="17.0" prefWidth="66.0" text="Address" textFill="#fecfb1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="96.0" layoutY="180.0" prefHeight="17.0" prefWidth="66.0" text="Unique ID " textFill="#fecfb1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="98.0" layoutY="251.0" prefHeight="17.0" prefWidth="66.0" text="Name " textFill="#fecfb1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="401.0" layoutY="110.0" prefHeight="17.0" prefWidth="75.0" text="Town/City" textFill="#fecfb1">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="398.0" layoutY="180.0" prefHeight="20.0" prefWidth="98.0" text="Owner's Name " textFill="#fecfb1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="395.0" layoutY="251.0" prefHeight="17.0" prefWidth="75.0" text="Phone NO." textFill="#fecfb1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Text fx:id="text" fill="#f80d48" layoutX="238.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="79.0">
+      <font>
+         <Font size="20.0" />
+      </font></Text>
+   </children>
+</AnchorPane>

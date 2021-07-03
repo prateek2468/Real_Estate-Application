@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="myAnchorPane" prefHeight="660" prefWidth="650" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <ImageView fx:id="rootpane1" fitHeight="665.0" fitWidth="650.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@Images/wp2581365.jpg" />
+      </image>
+   </ImageView>
+
+
+      <Button layoutX="61.0" layoutY="217.0" mnemonicParsing="false" onAction="#reset" prefHeight="25.0" prefWidth="110.0" text="Reset the Owners" />
+      <Button layoutX="465.0" layoutY="217.0" mnemonicParsing="false" onAction="#reset1" text="Reset the Properties" />
+      <Button layoutX="177.0" layoutY="325.0" mnemonicParsing="false" onAction="#newSeller" prefHeight="25.0" prefWidth="110.0" text="New Seller" />
+      <Button layoutX="325.0" layoutY="325.0" mnemonicParsing="false" onAction="#newLandlord" prefHeight="25.0" prefWidth="110.0" text="New Landlord" />
+      <Button layoutX="175.0" layoutY="375.0" mnemonicParsing="false" onAction="#newSaleProperty" text="New Sale Property" />
+      <Button layoutX="325.0" layoutY="375.0" mnemonicParsing="false" onAction="#newLeaseProperty" text="New Lease Property" />
+      <Button layoutX="67.0" layoutY="459.0" mnemonicParsing="false" onAction="#reportSale" prefHeight="25.0" prefWidth="98.0" text="Report on Sale " />
+      <Button layoutX="469.0" layoutY="459.0" mnemonicParsing="false" onAction="#reportLease" prefHeight="25.0" prefWidth="114.0" text="Report on Lease" />
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="14.0" prefHeight="99.0" prefWidth="600.0" text="Welcome to Real Estate Agency " textFill="#f80707">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   <Button layoutX="265.0" layoutY="217.0" mnemonicParsing="false" onAction="#reset2" prefHeight="25.0" prefWidth="98.0" text="Reset All" />
+   <Button layoutX="278.0" layoutY="557.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="72.0" text="EXIT" onAction="#exit"/>
+
+</AnchorPane>

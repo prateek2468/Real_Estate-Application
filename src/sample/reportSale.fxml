@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="AnchorPane5" prefHeight="350.0" prefWidth="550.0" style="-fx-background-color: #5B3365;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.reportSaleController">
+   <children>
+      <TextField fx:id="text1" layoutX="179.0" layoutY="142.0" prefHeight="29.0" prefWidth="193.0" promptText="Enter the Amount" />
+      <TextField fx:id="text2" layoutX="181.0" layoutY="200.0" prefHeight="29.0" prefWidth="193.0" promptText="Name of File" />
+      <Button layoutX="354.0" layoutY="283.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Label alignment="CENTER" layoutX="92.0" layoutY="2.0" prefHeight="93.0" prefWidth="392.0" text="Report on Property for Sale" textFill="#72d9c6">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Button layoutX="127.0" layoutY="283.0" mnemonicParsing="false" onAction="#done" text="Save" />
+      <Label alignment="CENTER_RIGHT" layoutX="83.0" layoutY="142.0" prefHeight="29.0" prefWidth="88.0" text=" Amount :-   $" textFill="#72d9c6">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" layoutX="75.0" layoutY="202.0" prefHeight="25.0" prefWidth="96.0" text="Name of File :-" textFill="#72d9c6">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Text fx:id="text" fill="#f80d48" layoutX="226.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="79.0">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

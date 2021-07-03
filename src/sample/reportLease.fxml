@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="AnchorPane6" prefHeight="350.0" prefWidth="550.0" style="-fx-background-color: #3F595A;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.reportLeaseController">
+   <children>
+      <Label alignment="CENTER" prefHeight="79.0" prefWidth="550.0" text="Report on Property for Lease" textFill="#f69175">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <TextField fx:id="text1" layoutX="201.0" layoutY="138.0" promptText="Enter Town" />
+      <TextField fx:id="text2" layoutX="201.0" layoutY="212.0" promptText="Enter FileName" />
+      <Label alignment="CENTER_RIGHT" layoutX="107.0" layoutY="142.0" prefHeight="20.0" prefWidth="86.0" text="Town :-" textFill="#fecfb1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" layoutX="99.0" layoutY="216.0" prefHeight="20.0" prefWidth="94.0" text="Name of File :-" textFill="#fecfb1">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button layoutX="99.0" layoutY="288.0" mnemonicParsing="false" text="Save" onAction="#save"/>
+      <Button layoutX="396.0" layoutY="288.0" mnemonicParsing="false" text="Back" onAction="#back"/>
+       <Text fx:id="text" fill="#f80d48" layoutX="226.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="79.0">
+           <font>
+               <Font size="20.0" />
+           </font></Text>
+   </children>
+</AnchorPane>
